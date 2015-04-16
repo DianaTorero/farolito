@@ -5574,4 +5574,106 @@ p {
   background-color: tomato;
   border-color: tomato; }
 
+.nuestra {
+  color: #55CCF4;
+  margin: 0px;
+  text-align: center;
+  margin-top: 8%;
+  font-size: 45px;
+  padding-bottom: 46px; }
+
+.nuestro {
+  color: tomato;
+  font-size: 36px;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 57px;
+  font-family: 'PT Sans', sans-serif; }
+
+.que {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0px;
+  color: #595959;
+  font-family: 'Hind', sans-serif; }
+
+.abre-comillas {
+  margin-right: 1%;
+  margin-bottom: 38px; }
+
+.cierra-comillas {
+  margin-top: 15px;
+  margin-left: 7px; }
+
+.competencias {
+  margin-top: 79%;
+  padding-left: 40%;
+  color: tomato;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif; }
+
+.preferencias {
+  margin-top: 79%;
+  margin-right: 25%;
+  color: tomato;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif; }
+
+.texto-competencias {
+  color: #979797;
+  margin-top: 6%;
+  margin-left: 41%;
+  padding: 0px; }
+
+.texto-preferencias {
+  color: #979797;
+  margin-top: 6%;
+  margin-right: 32%;
+  padding: 0px; }
+
+.circulo {
+  border: dotted white;
+  margin-top: 16%;
+  height: 65%;
+  background-color: tomato;
+  border-radius: 50%; }
+
+.analisis {
+  color: tomato;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  margin-left: 9%;
+  margin-top: 35%; }
+
+.texto-analisis {
+  color: #979797;
+  margin-top: 6%;
+  padding-left: 12%;
+  padding-right: 10%; }
+
+.optenemos {
+  margin-top: 20%;
+  margin-bottom: 8%;
+  color: white;
+  font-size: 27px;
+  padding-left: 4%;
+  line-height: 42px; }
+
+.nos {
+  color: white;
+  margin-left: 20%;
+  font-size: 27px; }
+
+.btn-ver {
+  background-color: #4DBCE1;
+  border: #4DBCE1;
+  color: white;
+  padding: 11px 88px;
+  font-size: 23px;
+  margin-left: 43%;
+  margin-top: 6%; }
+
 /*# sourceMappingURL=main.css.map */
