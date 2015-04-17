@@ -201,7 +201,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -4891,7 +4891,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -4986,7 +4986,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857;
@@ -5553,8 +5553,7 @@ button.close {
   margin-left: 8%;
   margin-top: 38px;
   font-size: 33px;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif; }
+  text-align: center; }
 
 p {
   color: #ADADAD;
@@ -5594,6 +5593,7 @@ p {
   text-align: center;
   font-size: 36px;
   margin-top: 0px;
+  margin-bottom: 6%;
   color: #595959;
   font-family: 'Hind', sans-serif; }
 
@@ -5606,54 +5606,65 @@ p {
   margin-left: 7px; }
 
 .competencias {
-  margin-top: 79%;
-  padding-left: 40%;
+  /*margin-top: 79%;*/
+  /*padding-left: 40%;*/
   color: tomato;
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
+  margin-top: 61px;
   font-family: 'PT Sans', sans-serif; }
 
 .preferencias {
-  margin-top: 79%;
-  margin-right: 25%;
+  /*margin-top: 79%;*/
+  /*margin-right: 25%;*/
   color: tomato;
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
-  font-family: 'PT Sans', sans-serif; }
+  margin-top: 89px;
+  font-family: 'PT Sans', sans-serif;
+  padding: 0 7px; }
 
 .texto-competencias {
   color: #979797;
-  margin-top: 6%;
-  margin-left: 41%;
-  padding: 0px; }
+  padding-left: 7px;
+  padding-right: 25px;
+  font-size: 20px; }
 
 .texto-preferencias {
   color: #979797;
-  margin-top: 6%;
-  margin-right: 32%;
-  padding: 0px; }
+  padding: 0 22px;
+  font-size: 20px; }
 
-.circulo {
-  border: dotted white;
-  margin-top: 16%;
-  height: 65%;
+.circulo-externo {
+  padding: 3px;
+  height: 492px;
+  width: 492px;
   background-color: tomato;
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin: 0 auto; }
+
+.circulo-interno {
+  border: dashed white;
+  border-radius: 50%;
+  height: 98%;
+  width: 98%;
+  margin: 4px auto;
+  font-weight: 300; }
 
 .analisis {
-  color: tomato;
-  font-size: 35px;
   text-align: center;
-  font-family: 'PT Sans', sans-serif;
-  margin-right: 6%;
-  margin-top: 35%; }
+  font-size: 36px;
+  margin-top: 13%;
+  margin-bottom: 6%;
+  color: tomato;
+  font-family: 'Hind', sans-serif; }
 
 .texto-analisis {
   color: #979797;
   margin-top: 6%;
-  margin-left: 1%;
-  padding-left: 17%;
-  padding-right: 27%; }
+  font-size: 20px;
+  padding-left: 16%;
+  padding-right: 22%; }
 
 .optenemos {
   margin-top: 20%;
@@ -5713,7 +5724,7 @@ p {
   margin-bottom: 0px;
   border-bottom: dotted tomato; }
 
-.somos {
+.proveedor {
   color: gray;
   text-align: center;
   font-size: 19px;
@@ -5742,6 +5753,94 @@ p {
   margin-left: 27%; }
 
 .btn-contacto {
+  background-color: tomato;
+  border: tomato;
+  color: white;
+  padding: 23px 88px;
+  font-size: 23px;
+  margin-left: 40%;
+  margin-top: 6%;
+  margin-bottom: 7%; }
+
+.verde {
+  background-color: #45DA45;
+  margin-bottom: -6px; }
+
+.centros {
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  margin-top: 8%;
+  margin-bottom: 0px; }
+
+.linea-seccion {
+  padding-top: 70px; }
+
+.line-container {
+  position: relative;
+  height: 150px; }
+
+.line1 {
+  width: 283px;
+  height: 47px;
+  border-bottom: 4px dashed tomato;
+  -webkit-transform: translateY(20px) translateX(5px) rotate(-17deg);
+  position: absolute;
+  top: 72px;
+  right: -57px; }
+
+.line2 {
+  width: 297px;
+  height: 47px;
+  border-bottom: 4px dashed tomato;
+  -webkit-transform: translateY(20px) translateX(5px) rotate(16deg);
+  position: absolute;
+  top: 62%;
+  right: 51%; }
+
+.line3 {
+  width: 282px;
+  border-bottom: 4px dashed tomato;
+  -webkit-transform: translateY(20px) translateX(5px) rotate(90deg);
+  position: absolute;
+  top: 11%;
+  left: 21%; }
+
+h4.evaluadora {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 26px;
+  line-height: 28px; }
+
+.desarrolla {
+  color: #EEEE68;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 13%;
+  margin: 46px auto;
+  height: 61px;
+  width: 38%;
+  margin-bottom: 0px;
+  border-bottom: dotted white; }
+
+.sub {
+  text-align: center;
+  color: white;
+  font-size: 31px; }
+
+.desc {
+  padding-left: 45px;
+  padding-bottom: 7px;
+  margin-top: 30px;
+  color: white; }
+
+p.desc.asesoria {
+  margin-bottom: 10%; }
+
+.btn-contacto-verde {
   background-color: tomato;
   border: tomato;
   color: white;
