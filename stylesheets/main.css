@@ -5645,14 +5645,15 @@ p {
   font-size: 35px;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
-  margin-left: 9%;
+  margin-right: 6%;
   margin-top: 35%; }
 
 .texto-analisis {
   color: #979797;
   margin-top: 6%;
-  padding-left: 12%;
-  padding-right: 10%; }
+  margin-left: 1%;
+  padding-left: 17%;
+  padding-right: 27%; }
 
 .optenemos {
   margin-top: 20%;
@@ -5673,7 +5674,81 @@ p {
   color: white;
   padding: 11px 88px;
   font-size: 23px;
+  margin-left: 40%;
+  margin-top: 6%;
+  margin-bottom: 7%; }
+
+.para-postulantes {
+  background-image: url(../img/img-02.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover; }
+
+.titulo-farolito-postulantes {
+  color: white;
+  font-size: 39px;
+  margin-top: 6%;
+  text-align: center; }
+
+.alcanza {
+  color: white;
+  text-align: center;
+  margin-top: 28px; }
+
+.empresas {
+  color: tomato;
+  text-align: center;
+  font-size: 38px;
+  margin-top: 8%;
+  margin-bottom: 0px; }
+
+.contrata {
+  color: gray;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 13%;
+  margin: 46px auto;
+  height: 61px;
+  width: 38%;
+  margin-bottom: 0px;
+  border-bottom: dotted tomato; }
+
+.somos {
+  color: gray;
+  text-align: center;
+  font-size: 19px;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-top: 26px;
+  line-height: 28px; }
+
+.iconos {
   margin-left: 43%;
-  margin-top: 6%; }
+  margin-top: 13%; }
+
+.subtitulos {
+  text-align: center;
+  color: gray;
+  font-size: 31px; }
+
+.descripciones {
+  padding-left: 45px;
+  padding-bottom: 7px;
+  margin-top: 30px; }
+
+.mas-informacion {
+  color: #47D1FF;
+  font-size: 22px;
+  margin-left: 27%; }
+
+.btn-contacto {
+  background-color: tomato;
+  border: tomato;
+  color: white;
+  padding: 23px 88px;
+  font-size: 23px;
+  margin-left: 40%;
+  margin-top: 6%;
+  margin-bottom: 7%; }
 
 /*# sourceMappingURL=main.css.map */
